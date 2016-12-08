@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>AdvertisementApp</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="UTF-8" />
+    <meta description="viewport"
+          content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" media="screen" type='text/css' href="../js/views/css/SearchViewStyles.css" />
+</head>
+<body>
+<script>
+    var dojoConfig = {
+        async : true,
+        packages : [
+            { name: "dojo", location: "/js/dojo" },
+            { name: "dijit", location: "/js/dijit" },
+            { name: "widgets", location: "/js/widgets"},
+            { name: "views", location: "/js/views"},
+            { name: "controllers", location: "/js/controllers"},
+            { name: "presenters", location: "/js/presenters"},
+            { name: "Main", location: "/js"}
+        ]
+    };
+</script>
+<script data-dojo-config="async: true" src="js/dojo/dojo.js"></script>
+<script>
+    require(["Main"]);
+</script>
+</body>
+</html>

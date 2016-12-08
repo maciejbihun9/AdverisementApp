@@ -1,0 +1,27 @@
+<div data-dojo-type="dijit/layout/BorderContainer" data-dojo-attach-point="searchViewContainer" data-dojo-props="liveSplitters:true"
+     style="height: 100%; width: 100%;"  >
+
+    <div data-dojo-type="dijit/layout/ContentPane" data-dojo-attach-point="searchViewTop" data-dojo-props="region:'top'"
+         style="width: 100%; height: 100px; text-align: center; color: gray; background-color: white">
+        <p style="position: relative; top: 40%">Top area after change, so it another change</p>
+    </div>
+    <div data-dojo-type="dijit/layout/ContentPane" data-dojo-attach-point="searchViewCenter" data-dojo-props="region:'center'" style="height: 100%; width: 100%">
+        <div data-dojo-attach-point="searchViewLeft" style="float: left; width: 15%; height: 100%; text-align: center;  background-color: lightblue">
+            <div style="margin-top: 32px" data-dojo-attach-point="left1Banner"></div>
+            <div data-dojo-attach-point="left2Banner"></div>
+            <div data-dojo-attach-point="left3Banner"></div>
+        </div>
+        <div data-dojo-attach-point="searchViewCenter" style="float: left; width: 70%; height: 100%; text-align: center;  background-color: orange">
+            <div data-dojo-attach-point="searchBarContainer" style="position: relative; top: 30%; width:100%; height: 100px;"></div>
+        </div>
+        <div data-dojo-attach-point="searchViewRight" style="float: left; width: 15%; height: 100%; text-align: center;  background-color: yellow">
+            <div style="margin-top: 32px" data-dojo-attach-point="left4Banner"></div>
+            <div data-dojo-attach-point="left5Banner"></div>
+            <div data-dojo-attach-point="left6Banner"></div>
+        </div>
+    </div>
+    <div data-dojo-type="dijit/layout/ContentPane" data-dojo-attach-point="searchViewBottom" data-dojo-props="region:'bottom'"
+         style="width: 100%; height: 100px; text-align: center; color:gray;  background-color: lightgray;">
+        <div style="width: 100%; height: 100%;" data-dojo-attach-point="bottomBanner"></div>
+    </div>
+</div>

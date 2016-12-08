@@ -1,0 +1,22 @@
+.iconDocument {
+    background-image: url("../img/document.png");
+    width: 16px;
+    height: 16px;
+}
+
+.notValid {
+    color: red;
+    font-weight: bold;
+}
+
+.newVersion:after {
+    font-size: 7px;
+    color: gray;
+    font-style: italic;
+    content: ' New Version';
+}
+
+#ajaxDialog {
+    width:700px;  
+    border-radius : 16px;
+}
